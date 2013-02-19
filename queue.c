@@ -6,8 +6,6 @@
 // This method implements a queue of at most (n-1) elements using an array
 // Q[0..n] Q.head, Q.head+1, Q.head+2 ... Q.tail-1
 // 
-//
-//
 
 
 #define QUEUE_SIZE 12
