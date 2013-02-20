@@ -46,7 +46,7 @@ quicksort(int a[], int p, int r)
   int q;
   q = partition(a, p, r);
 
-  quicksort(a, p, q-1);
+  quicksort(a, p, q - 1);
   quicksort(a, q + 1, r);
 }
 
