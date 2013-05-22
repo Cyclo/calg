@@ -146,7 +146,7 @@ main()
   char *myValue = ht_get(table,"myKey");
   printf("Value for key [myKey]=[%s]\n", myValue);
 
-  myValue = ht_get(table,"<myKey2></myKey2>");
+  myValue = ht_get(table,"myKey2");
   printf("Value for key [myKey2]=[%s]\n", myValue);
 
   ht_free(table);
